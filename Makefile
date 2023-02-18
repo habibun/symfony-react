@@ -1,5 +1,6 @@
 .PHONY: install
 install: ## install project
-	symfony console composer install
+	symfony composer install
+	symfony server:start &
 	yarn
 	yarn encore dev --watch
