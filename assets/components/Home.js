@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Route, Switch,Redirect, Link, withRouter} from 'react-router-dom';
+import {Route, Routes,Navigate, Link, withRouter} from 'react-router-dom';
 import Users from './Users';
 import Posts from './Posts';
 
@@ -22,15 +22,14 @@ class Home extends Component {
                         </ul>
                     </div>
                 </nav>
-                <Switch>
-                    <Redirect exact from="/" to="/users" />
-                    <Route path="/users" component={Users} />
-                    <Route path="/posts" component={Posts} />
-                </Switch>
+                <Routes>
+                    <Route path="/" element={<Navigate to="/users" />} />
+                    <Route path="/users" element={<Users />} />
+                    <Route path="/posts" element={<Posts />} />
+                </Routes>
             </div>
         )
     }
 }
 
 export default Home;
-

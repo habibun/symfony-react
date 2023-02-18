@@ -8,12 +8,8 @@
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.css';
 
-// start the Stimulus application
-import './bootstrap';
-
 
 import React from 'react';
-import ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter as Router } from 'react-router-dom';
 import './styles/app.css';

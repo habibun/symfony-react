@@ -12,7 +12,7 @@ class Users extends Component {
     }
 
     getUsers() {
-        axios.get(`http://localhost:8000/api/users`).then(users => {
+        axios.get(`https://localhost:8000/api/users`).then(users => {
             this.setState({ users: users.data, loading: false})
         })
     }
