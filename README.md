@@ -13,18 +13,12 @@ Please check the [projects](#projects) section for more details.
 <details><summary>Building a Single Page Application with Symfony PHP and React</summary>  
 <p>  
 
-[//]: # (<img)
+<img 
+src="https://user-images.githubusercontent.com/5810350/220195252-d7cd333b-a417-4848-871d-ab3429fdce08.png" 
+alt="Symfony React Project"
+width="50%"
+/>  
 
-[//]: # (src="https://user-images.githubusercontent.com/5810350/218063260-f11af1b3-7928-4ef5-832b-153befb8c1cb.png")
-
-[//]: # (alt="Symfony UX Chart")
-
-[//]: # (width="80%")
-
-[//]: # (/>)
-
-**Description:** Building a Single Page Application with Symfony PHP and React  
-**Code:** [Building a Single Page Application with Symfony PHP and React][oluyemi-olususi-20190731]  
 **Resources:**
 - [Building a Single Page Application with Symfony PHP and React](https://www.twilio.com/blog/building-a-single-page-application-with-symfony-php-and-react)
   <br/>
@@ -46,6 +40,11 @@ symfony server:start
 
 ## Learn More
 - [React Docs](https://reactjs.org/docs/getting-started.html)
+
+
+## Related
+- [React](https://github.com/habibun/react)
+- [Symfony](https://github.com/habibun/symfony)
 
 
 <!-- LICENSE -->
