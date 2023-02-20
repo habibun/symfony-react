@@ -1,4 +1,4 @@
-# Symfony with [React][react_website]
+# [Symfony][symfony-website] with [React][react-website]
 
 In this repository, every branch holds a separate example project except the main branch.
 Please check the [projects](#projects) section for more details.
@@ -55,8 +55,8 @@ Distributed under the MIT License. See **[LICENSE][license]** for more informati
 
 [//]: # (Links)
 [license]: https://github.com/habibun/symfony-react/blob/main/LICENSE
-[raect]: https://reactjs.org/
+[react-website]: https://reactjs.org/
+[symfony-website]: https://symfony.com/
 
-[react_website]: https://netgen.io/layouts
 [oluyemi-olususi-20190731]: https://github.com/habibun/symfony-react/tree/oluyemi-olususi-20190731
 [oluyemi-olususi-20190731-tt]: https://github.com/habibun/symfony-react/tree/oluyemi-olususi-20190731 "Building a Single Page Application with Symfony PHP and React"
